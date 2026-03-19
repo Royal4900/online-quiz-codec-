@@ -1,0 +1,22 @@
+{
+  "name": "personal-portfolio-website",
+  "version": "1.0.0",
+  "description": "Full-stack personal portfolio with Node.js, Express, MongoDB",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/scripts/seed.js"
+  },
+  "keywords": ["portfolio", "express", "mongodb"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.8.2",
+    "nodemailer": "^6.9.16"
+  }
+}
