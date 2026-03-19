@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz System</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <span class="logo">QUIZ SYSTEM</span>
+        <a href="/admin.html">Admin Panel</a>
+    </header>
+
+    <main class="container">
+        <h1>Available Quizzes</h1>
+        <p class="quiz-meta" style="margin: 0.5rem 0 1.5rem;">Select a quiz to begin. Each quiz has a server-controlled time limit.</p>
+        <div id="quiz-list" class="quiz-list"></div>
+        <div id="loading">Loading quizzes...</div>
+        <div id="empty" class="hidden">No quizzes available. Check back later.</div>
+    </main>
+
+    <script src="/js/home.js"></script>
+</body>
+</html>
